@@ -22,8 +22,8 @@ class HuobiClient:
 
 class HuobiClientTests(unittest.TestCase):
     def setUp(self):
-        api_key = 'frbghq7rnm-e48184b0-74b2728b-43013'
-        secret_key = 'b572a2ed-8ac75c6b-b5f625e0-b6ff6'
+        api_key = 'fr'
+        secret_key = 'b'
         self.huobi_client = HuobiClient(api_key, secret_key)
 
     def test_get_market_data(self):
